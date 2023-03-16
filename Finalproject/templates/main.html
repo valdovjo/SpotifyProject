@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>MusicGo</title>
+
+    <link rel="stylesheet" href="/static/musicgo.css" media="screen">
+    <script src="../static/script.js"></script>
+
+    <h1>MusicGo</h1>
+    
+    <div class="logsign">
+        <button type="button" onclick="location.href = '/login';" id="loginbutton">Log In</button>
+        <button type="button2" onclick="location.href = '/signout';" id="signoutbutton">Sign Out</button> 
+    </div>
+  
+    </head>
+
+<body>
+    <header>
+    <nav class= "navbar">
+    <ul class="navlist">
+    <!-- <li><a href="/home">Music&Go</a></li> -->
+    <li><a href="/home">Home</a>
+    <li><a href="/library">Library</a></li>
+    <li><a href="/about">About</a></li>
+    </ul>
+    </nav>
+
+    </body>
+
+    </header>
+
+    <h1>
+    To start off Song of the Day,
+    Click Generate Songs!
+    </h1>
+
+
+    <div class="genbutton">
+        <button type="button" onclick="ranSong()">Generate Songs</button>
+    <p id="songname"></p>
+    </div>
+    
+</html>
